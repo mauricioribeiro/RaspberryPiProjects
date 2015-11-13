@@ -19,7 +19,7 @@ while True:
 	for (x, y, width, height) in faces:
 		cv2.retangle(frame, (x, y), (x + width, y + height), scaleFactor, minNeighbors)
 
-	cv2.imgshow('Face regognition record', frame)
+	cv2.imgshow('Face recognition record', frame)
 
 	if cv2.waitKey(1) & 0xFF == ord('q'):
 		break
