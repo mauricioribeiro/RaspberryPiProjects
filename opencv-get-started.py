@@ -17,7 +17,7 @@ while True:
 	faces = faceCascade.detectMultiScale(gray, scaleFactor, minNeighbors)
 
 	for (x, y, width, height) in faces:
-		cv2.retangle(frame, (x, y), (x + width, y + height), (0, 255,
+		cv2.retangle(frame, (x, y), (x + width, y + height), scaleFactor, minNeighbors)
 
 	cv2.imgshow('Face regognition record', frame)
 
