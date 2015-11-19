@@ -1,9 +1,10 @@
 '''
 	Python version: 2.7
-	Opencv version: 2.0.0
+	Opencv version: 3.0.0
+	Tracking method used: Haar Cascade
 '''
 
-print('\n***** face recognition using open cv library - Mauricio Ribeiro *****\n')
+print('\n***** face/eye tracking using opencv library - Mauricio Ribeiro *****\n')
 
 import cv2, os
 
