@@ -1,3 +1,8 @@
+'''
+	Python version: 2.7
+	Opencv version: 2.0.0
+'''
+
 print('\n***** face recognition using open cv library - Mauricio Ribeiro *****\n')
 
 import cv2, os
